@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            body, body * {
+                box-sizing: border-box;
+                margin: 0;
+            }
+            .header {
+                display: flex;
+                flex: 0 1 auto;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+                padding: 0;
+                margin: 0;
+            }
+            .header .menu {
+                display: flex;
+                flex: 0 1 auto;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                height: 100px;
+                width: 100vw;
+                padding: 24px;
+                margin: 0;
+            }
+            .hero {
+                display: flex;
+                flex: 0 1 auto;
+                align-items: center;
+                justify-content: center;
+                height: calc(100vh - 200px);
+                min-height: calc(100vh - 200px);
+                width: 100%;
+            }
+            .footer {
+                display: flex;
+                flex: 0 1 auto;
+                align-items: center;
+                justify-content: flex-end;
+                height: 100px;
+                padding: 12px;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <ul class="menu">
+                <li>
+                    <a href="/">
+                        Soitinpuu
+                    </a>
+                </li>
+                <li class="repository">
+                    <a href="https://github.com/soitinpuu/soitinpuu">
+                        github
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hero">
+            <h1>
+                Soitinpuu
+            </h1>
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>
