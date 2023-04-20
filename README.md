@@ -1,3 +1,3 @@
 # Soitinpuu.fi
 
-Täältä löytyy soitinpuu.fi -sivuston lähdekoodi.
+`soitinpuu.fi`-sivuston lähdekoodi.
